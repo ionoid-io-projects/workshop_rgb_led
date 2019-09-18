@@ -1,0 +1,5 @@
+name: rgb-env
+version: 1.0
+apps:
+    rgb-env:
+        command:    /bin/rgb
