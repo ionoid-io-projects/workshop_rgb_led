@@ -2,8 +2,8 @@
 Material for raspberry pi workshop
 
 # Wiring
-<!-- 
-![Lighting an LED](doc/img/SoilMoisture.png)
+
+![Lighting an LED](doc/img/rgbMoisture.png)
 
 |Sensor                | Raspberry pi                  |
 |-------------------|---------------------------------|
@@ -29,26 +29,26 @@ Follow the following instruction if you dont know how to connect to raspberry pi
 Assuming you're connected with... copy and past this command
 If you're using Raspberry zero
 ```
-curl -O https://raw.githubusercontent.com/ionoid-io-projects/workshop_soil_moisture/master/bin/arm6/soil
+curl -O https://raw.githubusercontent.com/ionoid-io-projects/workshop_rgb_led/master/bin/arm6/rgb
 ```
 
 If you're using Raspberry 3 b
 ```
-curl -O https://raw.githubusercontent.com/ionoid-io-projects/workshop_soil_moisture/master/bin/arm7/soil
+curl -O https://raw.githubusercontent.com/ionoid-io-projects/workshop_rgb_led/master/bin/arm7/rgb
 ```
 ## make it executable
 ```
-chmod +x soil
+chmod +x rgb
 ```
 
 ## 4- execute binary
 ```
-./soil
+./rgb
 ```
 
 ## How to stop the program
 To quit or stop the program click on **Ctrl+C**
 
 # Ressources
-https://www.piddlerintheroot.com/soil-moisture-sensor/
- -->
+https://www.piddlerintheroot.com/rgb-moisture-sensor/
+
