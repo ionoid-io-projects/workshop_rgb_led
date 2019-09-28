@@ -3,13 +3,13 @@ Material for raspberry pi workshop
 
 # Wiring
 
-![Lighting an LED](doc/img/rgbMoisture.png)
 
-|Sensor                | Raspberry pi                  |
+|Sensor             | Raspberry pi                 |
 |-------------------|---------------------------------|
 |-                  | GND pin                         |
-|+                  | +5v pin                         |
-|Signal             | GPIO 21                         |
+|Blue               | GPIO 23                         |
+|Green              | GPIO 24                         |
+|Red                | GPIO 25                         |
 
 # Code
 
@@ -45,6 +45,8 @@ chmod +x rgb
 ```
 ./rgb
 ```
+
+You can call one of those color green, red, orange  
 
 ## How to stop the program
 To quit or stop the program click on **Ctrl+C**
