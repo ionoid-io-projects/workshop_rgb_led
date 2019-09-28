@@ -14,7 +14,9 @@ import (
 	"bufio"
 	"fmt"
 	"os"
+	"os/signal"
 	"strings"
+	"syscall"
 	"time"
 
 	"github.com/stianeikeland/go-rpio"
@@ -41,6 +43,15 @@ func main() {
 	pinRed.Output()
 	pinGreen.Output()
 	pinBlue.Output()
+
+	// Clean up on ctrl-c and turn lights out
+	c := make(chan os.Signal, 1)
+	signal.Notify(c, os.Interrupt, syscall.SIGTERM)
+	go func() {
+		<-c
+		Init()
+		os.Exit(0)
+	}()
 
 	Red()
 	time.Sleep(time.Second * 2)
