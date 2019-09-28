@@ -46,7 +46,7 @@ chmod +x rgb
 ./rgb
 ```
 
-You can call one of those color green, red, orange  
+You can call one of those color **green**, **red**, **orange** to be written in lower case
 
 ## How to stop the program
 To quit or stop the program click on **Ctrl+C**
