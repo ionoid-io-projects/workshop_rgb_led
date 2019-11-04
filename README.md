@@ -1,8 +1,10 @@
 # workshop rgb led
-Material for Raspberry Pi workshop
+
+This workshop cover the usage of The KY-016 rgb full color led module with the Raspberry Pi.  
 
 # Wiring
 
+![rgb](doc/img/rgb.jpg)
 
 |Sensor             | Raspberry Pi                 |
 |-------------------|---------------------------------|
