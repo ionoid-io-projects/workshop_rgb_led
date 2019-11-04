@@ -11,6 +11,8 @@ Material for raspberry pi workshop
 |Green              | GPIO 24                         |
 |Red                | GPIO 25                         |
 
+![wiring](doc/img/gpio.png)
+
 # Code
 
 ## 1- Power your raspberry
